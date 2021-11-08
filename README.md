@@ -7,7 +7,7 @@ BITR is een chat systeem gebaseerd op twitter om te kunnen communiceren met leer
 ## Wat kan je allemaal met BITR?
 
 - Chatten met andere.
-- Kijken wie de beste BITR gebruiker is, en dus de meeste chats heb gestuurd!
+- Kijken wie de beste BITR gebruiker is en dus de meeste chats heb gestuurd!
 - Klasgenoten opzoeken.
 - Samen met docenten en leerlingen chatten.
 
