@@ -32,7 +32,7 @@ session_start();
     <body class=''>
         <div class='float-right lg:w-2/5 sm:w-full h-full bg-black lg:mt-0 sm:pt-96 lg:pt-0 text-white block text-center' data-aos="fade-left" data-aos-duration="500">
             <div class='flex justify-center'>
-                <img src='images/logo.png' class='lg:w-10 sm:w-32 mt-20'>
+                <img src='images/logobitr.png' class='lg:w-10 sm:w-32 mt-20'>
             </div>
             <h1 class='lg:text-3xl sm:text-7xl lg:mt-16 sm:mt-12 mb-14'>INLOGGEN BIJ BITR.</h1>
             <form method='post'>

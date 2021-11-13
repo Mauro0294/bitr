@@ -39,7 +39,7 @@ session_start();
 <body class='overflow-hidden'>
         <div class='float-right lg:w-2/5 sm:w-full h-full bg-black lg:mt-0 sm:pt-80 lg:pt-0 text-white block text-center' data-aos="fade-left" data-aos-duration="500">
             <div class='flex justify-center'>
-                <img src='images/logo.png' class='lg:w-10 sm:w-32 mt-14'>
+                <img src='images/logobitr.png' class='lg:w-10 sm:w-32 mt-14'>
             </div>
             <h1 class='lg:text-3xl sm:text-7xl lg:mt-8 sm:mt-4 mb-14'>CREËER EEN ACCOUNT.</h1>
             <form method='post'>
