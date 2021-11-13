@@ -44,7 +44,7 @@ session_start();
             </form>
         
         <h1 class='lg:text-xs sm:text-2xl lg:mt-10 sm:mt-20 mb-20'>NOG GEEN ACCOUNT?<a href='registreer.php' class='text-blue-500 hover:text-blue-600 duration-500'> REGISTREER NU!</a></h1>
-        <h1 id='h1'>VERKEERD WACHTWOORD OF GEBRUIKERSNAAM.</h1>
+        <h1 id='h1' class='lg:hidden sm:block'>VERKEERD WACHTWOORD OF GEBRUIKERSNAAM.</h1>
         <img src='images/original.gif' class='lg:hidden sm:block w-full h-1/2 mr-10'>
         </div>
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
