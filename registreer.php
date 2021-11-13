@@ -46,10 +46,10 @@ session_start();
                 <h1 class='mb-2 lg:text-lg sm:text-3xl'>GEBRUIKERSNAAM.</h1>
                 <input type='text' name='gebruikersnaam' class='sm:w-1/2 mb-8 lg:py-4 lg:pr-20 lg:text-lg sm:text-2xl sm:py-12 sm:pr-32 outline-none pl-2 rounded' placeholder='Gebruikersnaam' maxlength='25' required>
                 <h1 class='mb-2 lg:text-lg sm:text-3xl'>EMAIL.</h1>
-                <input type='text' name='gebruikersnaam' class='sm:w-1/2 mb-8 lg:py-4 lg:pr-20 lg:text-lg sm:text-2xl sm:py-12 sm:pr-32 outline-none pl-2 rounded' placeholder='Email' maxlength='25' required>
+                <input type='text' name='email' class='sm:w-1/2 mb-8 lg:py-4 lg:pr-20 lg:text-lg sm:text-2xl sm:py-12 sm:pr-32 outline-none pl-2 rounded' placeholder='Email' required>
                 <h1 class='mb-2 lg:text-lg sm:text-3xl'>WACHTWOORD.</h1>
-                <input name='wachtwoord' class='sm:w-1/2 mb-8 lg:py-4 lg:pr-20 lg:text-lg sm:text-2xl sm:py-12 sm:pr-32 outline-none pl-2 rounded' placeholder='Wachtwoord' type='password' required><br>
-                <button name='login' class='bg-blue-600 rounded-full px-20 py-2 mb-10'>INLOGGEN.</button>
+                <input name='wachtwoord' class='sm:w-1/2 mb-8 lg:py-4 lg:pr-20 lg:text-lg sm:text-2xl sm:py-12 sm:pr-32 outline-none pl-2 rounded' placeholder='Wachtwoord' pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Wachtwoord moet minimaal 8 karakters bevatten, waarvan één nummer, één hoofdletter en éen kleine letter" type='password' required><br>
+                <button name='registreren' class='bg-blue-600 rounded-full px-20 py-2 mb-10'>INLOGGEN.</button>
             </form>
             <div class='h-10 w-full bg-black lg:hidden sm:block'>
         </div>
